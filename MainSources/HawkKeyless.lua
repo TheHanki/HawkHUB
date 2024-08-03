@@ -4,47 +4,6 @@ _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 
 assert(getgenv().hookfunction,"Your exploit does not support that function - Hanki")
 
-getgenv().appendfile = function() return nil end
-wait()
-getgenv().printconsole = function() return nil end
-wait()
-getgenv().saveinstance = function() return nil end
-wait()
-getgenv().toclipboard = function() return nil end
-wait()
-getgenv().set_clipboard = function() return nil end
-wait()
-getgenv().Clipboard = function() return nil end
-wait()
-getgenv().messagebox = function() return nil end
-wait()
-getgenv().rconsoleinputasync = function() return nil end
-wait()
-getgenv().consoleinput = function() return nil end
-wait()
-getgenv().rconsoledestroy = function() return nil end
-wait()
-getgenv().consoledestroy = function() return nil end
-wait()
-getgenv().rconsolecreate = function() return nil end
-wait()
-getgenv().consolecreate = function() return nil end
-wait()
-getgenv().consolesettitle = function() return nil end
-wait()
-getgenv().rconsolesettitle = function() return nil end
-wait()
-getgenv().consoleprint = function() return nil end
-wait()
-getgenv().consoleclear = function() return nil end
-wait()
-getgenv().getconstant = function() return nil end
-wait()
-getgenv().dofile = function() return nil end
-wait()
-getgenv().rconsoleinfo = function() return nil end
-wait()
-getgenv().setrbxclipboard = function() return nil end	
 
 	for i, v in pairs(game.CoreGui:GetChildren()) do
 		if v.Name == "HawkMini" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "HawkAdmin" or v.Name == "amk" then
@@ -200,7 +159,7 @@ getgenv().setrbxclipboard = function() return nil end
 	LoaderTexts.Text = "Logo by hacininsalgami"
 	wait(1.5)
 	Bar:TweenSize(UDim2.new(0, 182,0, 8))
-	LoaderTexts.Text = "Scripts by Hanki, Şaex & Batuhan"
+	LoaderTexts.Text = "Scripts by Hanki, Alex & Batuhan"
 	wait(1.5)
 	Bar:TweenSize(UDim2.new(0, 240,0, 8))
 	LoaderTexts.Text = "New project is Monolith Hub!!"
