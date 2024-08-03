@@ -106,7 +106,7 @@ assert(getgenv().hookfunction,"Your exploit does not support that function - Han
 	Text_2.Position = UDim2.new(0.162790701, 0, 0.504930973, 0)
 	Text_2.Size = UDim2.new(0, 200, 0, 16)
 	Text_2.Font = Enum.Font.GothamBold
-	Text_2.Text = "https://hawksoftworks.ga"
+	Text_2.Text = "http://hawkhub.rf.gd"
 	Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Text_2.TextSize = 14.000
 	Text_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -121,7 +121,7 @@ assert(getgenv().hookfunction,"Your exploit does not support that function - Han
 	Text_3.Position = UDim2.new(0.162790701, 0, 0.601577878, 0)
 	Text_3.Size = UDim2.new(0, 200, 0, 16)
 	Text_3.Font = Enum.Font.GothamBold
-	Text_3.Text = "https://discord.gg/v38jY8AF7d"
+	Text_3.Text = "https://discord.gg/F975uwxag6"
 	Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Text_3.TextSize = 14.000
 	Text_3.TextXAlignment = Enum.TextXAlignment.Left
