@@ -2,7 +2,7 @@
     _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 
     --loadstring
-    local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/Anormal3131/hawk/refs/heads/main/hawk.lua", true))()
+    local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/UILibs/HawkLib.lua", true))()
 
     --------------------------------------------------------------------------
 
