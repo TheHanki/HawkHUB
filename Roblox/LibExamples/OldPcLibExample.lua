@@ -1,6 +1,6 @@
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo" 
 
-local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/UILibs/PcLib.lua", true))()
+local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/LibExamples/PcLib.lua", true))()
 
 local Notificatin = Hawk:Notification()
 Notificatin:CreateNotification("10179402650","Game Detected!","Hawk HUB","It seems like Hawk found a script for a game you are playing right now. Would you want to load it?","Yes","No",function()
