@@ -11,7 +11,7 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local input = game:GetService("UserInputService")
-local corner = Instance.new("UICorner")_
+local corner = Instance.new("UICorner")
 local Circle = Instance.new("ImageLabel")
 Circle.Name = "Circle"
 Circle.BackgroundColor3 = Color3.new(0.533333, 0.533333, 0.533333)
@@ -134,9 +134,7 @@ local function MakeDraggable(topbarobject, object)
 end
 
 function Hanki:Window(ScrName)
-	local taklakinq = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Tables/TaklaKing.lua", true))()
 
-	if taklakinq == "TaklaKing" then
 		if _Hawk == "ohhahtuhthttouttpwuttuaunbotwo" then
 
 			for i, v in pairs(game.CoreGui:GetDescendants()) do
@@ -2240,14 +2238,12 @@ function Hanki:Window(ScrName)
 			end
 			return TabS
 		end
-	end
+	
 
 end
 
 function Hanki:Notification()
-	local taklakinq = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHzCihan/IDream/main/Tables/TaklaKing.lua", true))()
 
-	if taklakinq == "TaklaKing" then
 		if _Hawk == "ohhahtuhthttouttpwuttuaunbotwo" then
 
 			for i, v in pairs(game.CoreGui:GetDescendants()) do
@@ -3381,6 +3377,6 @@ function Hanki:Notification()
 			end	
 			return NotificationItems
 		end	
-	end
+	
 end
 return Hanki
