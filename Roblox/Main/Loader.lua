@@ -1,3 +1,29 @@
+-- Credits to who made syde ui 🙏
+-- Bro its so hard to use damn syde lib 😭😭😭
+
+print("hawk hub legends were here")
+_Protected_By_Hawk = ".gg/3nfgqgJCqZ"
+_Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
+assert(hookfunction,"Your exploit does not support that function - Hanki")
+
+for i, v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "GargamelosSanderos" then
+		v:Destroy()
+	end
+end
+for i, v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "HawkMini" or string.lower(v.Name) == "loader" or v.Name == "HawkHUBKeySystem" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
+		v:Destroy()
+	end
+end
+if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
+	game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
+end
+if game.CoreGui:FindFirstChild("HawkHUB") then
+	game.CoreGui:FindFirstChild("HawkHUB"):Destroy()
+end
+
+
 local tweenservice = 	game:GetService("TweenService")
 local coregui =         game:GetService("CoreGui")
 local Loader =          game:GetObjects("rbxassetid://110221114597158")[1]
@@ -346,29 +372,6 @@ SydeLoader:Load({
 
 
 
-
-print("hawk hub legends were here")
-_Protected_By_Hawk = ".gg/3nfgqgJCqZ"
-_Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
-assert(hookfunction,"Your exploit does not support that function - Hanki")
-hawkloaded = "HAWK_LOADED"
-
-for i, v in pairs(game.CoreGui:GetChildren()) do
-	if v.Name == "GargamelosSanderos" then
-		v:Destroy()
-	end
-end
-for i, v in pairs(game.CoreGui:GetChildren()) do
-	if v.Name == "HawkMini" or v.Name == "HawkHUBKeySystem" or v.Name == "Hawk" or v.Name == "GameNotification" or v.Name == "HawkNotification" or v.Name == "HawkKeySystem" or v.Name == "HawkLoader" or v.Name == "Intro" or v.Name == "Load" or v.Name == "amk" then
-		v:Destroy()
-	end
-end
-if game.CoreGui:FindFirstChild("HawkHUBKeySystem") then
-	game.CoreGui:FindFirstChild("HawkHUBKeySystem"):Destroy()
-end
-if game.CoreGui:FindFirstChild("HawkHUB") then
-	game.CoreGui:FindFirstChild("HawkHUB"):Destroy()
-end
 
 if _Protected_By_Hawk then
 	function loadgargamel()
@@ -4918,24 +4921,24 @@ local zoet = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.
 			HawkHUB.Main:TweenPosition(UDim2.new(0.5, -219,0.991, -48))
 			wait(1)
 
+for i, v in pairs(zoet.games) do
+					if hawkloaded then break end
+					if string.find(v, game.GameId) then
+								 Notificatin:CreateNotification("10179402650","Game Found!","Hawk HUB","We found a script for this game. Would you like to run it?","Yes","No",function()
+				
+								 loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/"..i..".lua"))()
 
-for i, v in pairs(zoet.games) do 
-	if hawkloaded then
-		if v == game.GameId then
-			if hawkloaded == true then return end
-			Notificatin:CreateNotification("10179402650","Game Found!","Hawk HUB","We found a script for this game. Would you like to run it?","Yes","No",function()
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/"..i..".lua"))()
-			end)
-            hawkloaded = true
-		else
-			if hawkloaded == true then return end
-			Notificatin:CreateNotification("10179402650","Game Cant Be Found!","Hawk HUB","This game isnt supported. Wanna load universal gui?","Yes","No",function()
+end)
+return;
+				
+					end
+				end
+				if not hawkloaded then hawkloaded = true end 
+				
+				Notificatin:CreateNotification("10179402650","Game Cant Be Found!","Hawk HUB","This game isnt supported. Wanna load universal gui?","Yes","No",function()
+			
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/Universal.lua"))()
-			end)
-             hawkloaded = true
-			end
-		end
-end
+end)
 
 		
 
