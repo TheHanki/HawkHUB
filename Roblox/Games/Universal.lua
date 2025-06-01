@@ -1,8 +1,12 @@
+   
+
     -- Makes the UI lib work
     _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 
-    --loadstring
+
+ --loadstring
     local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/UILibs/HawkLib.lua", true))()
+
 
     --------------------------------------------------------------------------
 
@@ -92,7 +96,6 @@
     local combatTab = Window:Tab("Combat")
     local visualsTab = Window:Tab("Visuals")
     local movementTab = Window:Tab("Movement")
-    local farmingTab = Window:Tab("Farming")
     local miscTab = Window:Tab("Misc")
 
     -- Combat Tab
