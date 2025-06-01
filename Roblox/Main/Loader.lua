@@ -23,7 +23,7 @@ if game.CoreGui:FindFirstChild("HawkHUB") then
 	game.CoreGui:FindFirstChild("HawkHUB"):Destroy()
 end
 
-
+wait(2)
 local tweenservice = 	game:GetService("TweenService")
 local coregui =         game:GetService("CoreGui")
 local Loader =          game:GetObjects("rbxassetid://110221114597158")[1]
