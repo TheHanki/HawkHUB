@@ -2,7 +2,7 @@
 -- Bro its so hard to use damn syde lib 😭😭😭
 
 print("hawk hub legends were here")
-_Protected_By_Hawk = ".gg/3nfgqgJCqZ"
+_Protected_By_Hawk = ".gg/qCvhJhfxf2"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 assert(hookfunction,"Your exploit does not support that function - Hanki")
 
@@ -2446,7 +2446,7 @@ local zoet = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.
 					TweenInfo.new(.2, Enum.EasingStyle.Quad),
 					{Size = UDim2.new(0, 139,0, 29)}
 				):Play()
-				setclipboard("discord.gg/3nfgqgJCqZ")
+				setclipboard("discord.gg/qCvhJhfxf2")
 			end)
 
 
@@ -4950,7 +4950,7 @@ end)
 		end
 	end
     
-	if _Protected_By_Hawk == ".gg/3nfgqgJCqZ" then
+	if _Protected_By_Hawk == ".gg/qCvhJhfxf2" then
 		for i, v in pairs(game.CoreGui:GetChildren()) do
 			if v.Name == "HawksAdmin" then
 				v:Destroy()
@@ -5283,7 +5283,7 @@ end)
 				DirectJoinDiscord.Text = "Clicked!"
 				wait(0.5)
 				DirectJoinDiscord.Text = "Direct Join Discord"
-				local InviteCode = "3nfgqgJCqZ"
+				local InviteCode = "qCvhJhfxf2"
 				local ExploitRequest = request or http_request or syn and syn.request
 				local HS = game:GetService("HttpService")
 
@@ -5324,7 +5324,7 @@ end)
 			CopyDiscordLink.TextSize = 12.000
 			CopyDiscordLink.ZIndex = 2
 			CopyDiscordLink.MouseButton1Down:Connect(function()
-				setclipboard("https://discord.gg/3nfgqgJCqZ")
+				setclipboard("https://discord.gg/qCvhJhfxf2")
 				ripple(CopyDiscordLink, Mouse.X, Mouse.Y)
 				CopyDiscordLink.Text = "Clicked!"
 				wait(0.5)
