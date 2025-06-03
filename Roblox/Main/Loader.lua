@@ -1,6 +1,4 @@
--- Credits to who made syde ui 🙏
--- Bro its so hard to use damn syde lib 😭😭😭
-
+-- removed the syde lib cuz some guy called "jannis" was popping on screen idk who the fuck is "jannis"
 print("hawk hub legends were here")
 _Protected_By_Hawk = ".gg/qCvhJhfxf2"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
