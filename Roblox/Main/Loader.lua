@@ -5062,6 +5062,7 @@ wait(6)
                             "Yes",
                             "No",
                             function()
+	wait(1.5)
                                 loadstring(
                                     game:HttpGet(
                                         "https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/" ..
@@ -5085,6 +5086,7 @@ wait(6)
                     "Yes",
                     "No",
                     function()
+	wait(1.5)
                         loadstring(
                             game:HttpGet(
                                 "https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/Universal.lua"
