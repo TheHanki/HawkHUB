@@ -1968,7 +1968,8 @@ if _Protected_By_Hawk then
             HawkHUB.SaveSettings_2.Parent = HawkHUB.SaveSettings
             HawkHUB.SaveSettings_2.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
             HawkHUB.SaveSettings_2.BorderColor3 = Color3.fromRGB(85, 0, 127)
-            HawkHUB.SaveSettings_2.Position = UDim2.new(0.235808, 0, 0.125, 0)
+        	HawkHUB.SaveSettings_2.BackgroundTransparency = 0.3
+		    HawkHUB.SaveSettings_2.Position = UDim2.new(0.235808, 0, 0.125, 0)
             HawkHUB.SaveSettings_2.Size = UDim2.new(0, 124, 0, 30)
             HawkHUB.SaveSettings_2.Font = Enum.Font.Gotham
             HawkHUB.SaveSettings_2.Text = "Save Settings"
@@ -3621,7 +3622,7 @@ if _Protected_By_Hawk then
                 HawkHUB.Pattern.Image = "rbxassetid://" .. encded.BackgroundID
                 autoload = tostring(encded.AutoLoad)
                 print(autoload)
-                if autoload == true then
+                if autoload == "true" then
                     debounceAU = true
                     game:GetService("TweenService"):Create(
                         HawkHUB.AutoLoadToggle,
@@ -3636,7 +3637,7 @@ if _Protected_By_Hawk then
                     wait(0.25)
                     debounceAU = false
                     toggledAU = true
-                elseif autoload == false then
+                elseif autoload == "false" then
                     debounceAU = true
                     game:GetService("TweenService"):Create(
                         HawkHUB.AutoLoadToggle,
@@ -3654,7 +3655,7 @@ if _Protected_By_Hawk then
                 end
             else
                 HawkHUB.BackgrounID.Text = 10830725670
-                autoload = false
+                autoload = "false"
                 HawkHUB.Pattern.Image = "rbxassetid://10830725670"
                 debounceAU = true
                 game:GetService("TweenService"):Create(
@@ -3681,10 +3682,10 @@ if _Protected_By_Hawk then
                     if debounceAU == false then
                         if toggledAU == true then
                             debounceAU = true
-                            if autoload == false then
-                                autoload = true
-                            elseif autoload == true then
-                                autoload = false
+                            if autoload == "false" then
+                                autoload = "true"
+                            elseif autoload == "true" then
+                                autoload = "false"
                             end
                             game:GetService("TweenService"):Create(
                                 HawkHUB.AutoLoadToggle,
@@ -3699,7 +3700,7 @@ if _Protected_By_Hawk then
                             wait(0.25)
                             debounceAU = false
                             toggledAU = false
-                            autoload = false
+                            autoload = "false"
                         elseif toggledAU == false then
                             debounceAU = true
                             game:GetService("TweenService"):Create(
@@ -3714,49 +3715,49 @@ if _Protected_By_Hawk then
                             ):Play()
                             wait(0.25)
                             debounceAU = false
-                            if autoload == false then
-                                autoload = true
-                            elseif autoload == true then
-                                autoload = false
+                            if autoload == "false" then
+                                autoload = "true"
+                            elseif autoload == "true" then
+                                autoload = "false"
                             end
                             toggledAU = true
                             --Activated
-                            autoload = true
+                            autoload = "true"
                         end
                     end
                 end
             )
 
-            HawkHUB.SaveSettings.SaveSettings.MouseEnter:Connect(
+            HawkHUB.SaveSettings_2.MouseEnter:Connect(
                 function()
                     TweenService:Create(
-                        HawkHUB.SaveSettings.SaveSettings,
+                        HawkHUB.SaveSettings_2,
                         TweenInfo.new(.2, Enum.EasingStyle.Quad),
                         {BackgroundTransparency = 0}
                     ):Play()
                 end
             )
 
-            HawkHUB.SaveSettings.SaveSettings.MouseLeave:Connect(
+            HawkHUB.SaveSettings_2.MouseLeave:Connect(
                 function()
                     TweenService:Create(
-                        HawkHUB.SaveSettings.SaveSettings,
+                        HawkHUB.SaveSettings_2,
                         TweenInfo.new(.2, Enum.EasingStyle.Quad),
                         {BackgroundTransparency = 0.3}
                     ):Play()
                 end
             )
 
-            HawkHUB.SaveSettings.SaveSettings.MouseButton1Click:Connect(
+            HawkHUB.SaveSettings_2.MouseButton1Click:Connect(
                 function()
                     TweenService:Create(
-                        HawkHUB.SaveSettings.SaveSettings,
+                        HawkHUB.SaveSettings_2,
                         TweenInfo.new(.2, Enum.EasingStyle.Quad),
                         {Size = UDim2.new(0, 129, 0, 35)}
                     ):Play()
                     wait(0.1)
                     TweenService:Create(
-                        HawkHUB.SaveSettings.SaveSettings,
+                        HawkHUB.SaveSettings_2,
                         TweenInfo.new(.2, Enum.EasingStyle.Quad),
                         {Size = UDim2.new(0, 124, 0, 30)}
                     ):Play()
@@ -4974,7 +4975,8 @@ if _Protected_By_Hawk then
             HawkHUB.Main:TweenPosition(UDim2.new(0.5, -219, 0.991, -48))
             wait(1)
 
-            if autoload == true then
+
+            if autoload == "true" then
                 for i, v in pairs(zoet.games) do
                     if hawkloaded then
                         break
