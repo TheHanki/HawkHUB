@@ -126,5 +126,5 @@ check.MouseButton1Down:Connect(function()
 			v:Destroy()
 		end
 	end
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/Hawk/main/HUB/HawkHUB.lua",true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Main/Loader.lua"))()
 end)
