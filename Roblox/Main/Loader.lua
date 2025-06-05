@@ -111,13 +111,19 @@ Shadow_2.SliceCenter = Rect.new(24, 24, 276, 276)
 UICorner_3.CornerRadius = UDim.new(0, 4)
 UICorner_3.Parent = Shadow_2
 
+wait(1)
+
 Hawk_Logo.Visible = true
 TweenService:Create(Hawk_Logo, TweenInfo.new(.2, Enum.EasingStyle.Quad), {BackgroundTransparency = 0}):Play()
 TweenService:Create(Hawk_Logo, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 0}):Play()
 TweenService:Create(Shadow, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 0}):Play()
 TweenService:Create(Shadow_2, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 0}):Play()
-wait(1)
+wait(1.7)
 TweenService:Create(Hawk_Logo, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 1}):Play()
+TweenService:Create(Hawk_Logo, TweenInfo.new(.2, Enum.EasingStyle.Quad), {BackgroundTransparency = 1}):Play()
+TweenService:Create(Shadow, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 1}):Play()
+TweenService:Create(Shadow_2, TweenInfo.new(.2, Enum.EasingStyle.Quad), {ImageTransparency = 1}):Play()
+wait(1)
 
 if _Protected_By_Hawk then
     function loadgargamel()
@@ -1226,6 +1232,46 @@ if _Protected_By_Hawk then
                 "https://dc.gg/shwxteam"
             )
 
+	    createscript(
+                "Solarium HUB",
+                "Lucky Blocks",
+                "Made By falpearx",
+                Color3.fromRGB(46, 46, 46),
+                Color3.fromRGB(21, 21, 21),
+                "https://raw.githubusercontent.com/DeveloperAlex0/Solarium/source/LuckyBlocksObf.lua",
+                "alex was here"
+            )
+
+	 	 createscript(
+	                "Infinite Yield",
+	                "Universal",
+	                "Made By Edge&IY",
+	                Color3.fromRGB(95, 48, 145),
+	                Color3.fromRGB(35, 17, 52),
+	                "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
+	                "https://discord.gg/SjKR9TpXMX"
+	            )
+
+		 createscript(
+	                "Sirius",
+	                "Universal",
+	                "Made By shlex+",
+	                Color3.fromRGB(183, 0, 189),
+	                Color3.fromRGB(93, 0, 97),
+	                "https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/request/source.lua",
+	                "https://discord.sirius.menu/"
+	            )
+
+		 createscript(
+	                "Ky Software",
+	                "Soutwest Florida",
+	                "Made By keyrixz&mov",
+	                Color3.fromRGB(25, 186, 0),
+	                Color3.fromRGB(14, 102, 0),
+	                "https://raw.githubusercontent.com/Keyrixz/whook.wtf/refs/heads/main/southwestflorida-latest",
+	                "https://discord.gg/TWqyaakVs5"
+	            )
+			
             HawkHUB.KeyFrame.Name = "KeyFrame"
             HawkHUB.KeyFrame.Parent = HawkHUB.PageContainer
             HawkHUB.KeyFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
@@ -1258,7 +1304,7 @@ if _Protected_By_Hawk then
             HawkHUB.paragraph.Size = UDim2.new(0, 410, 0, 89)
             HawkHUB.paragraph.Font = Enum.Font.Gotham
             HawkHUB.paragraph.Text =
-                "Hi! Thanks for using our script. You see that we are using a key system. This is for supporting our developers. It helps a lot. We say this here; we log your IP Address and HWID to identify malicious users and improve our systems. YOUR DATA IS NOT SOLD TO ANY THIRD PARTY.                           "
+                "Hi! Thanks for using our script. You see that we are using a key system. This is because no one wants to join our server \240\159\152\173\10. Please join our server!!!"
             HawkHUB.paragraph.TextColor3 = Color3.fromRGB(255, 255, 255)
             HawkHUB.paragraph.TextSize = 14.000
             HawkHUB.paragraph.TextWrapped = true
@@ -1272,7 +1318,7 @@ if _Protected_By_Hawk then
             HawkHUB.TextLabel.Position = UDim2.new(0.808798015, 0, 0.609755993, 0)
             HawkHUB.TextLabel.Size = UDim2.new(0, 67, 0, 17)
             HawkHUB.TextLabel.Font = Enum.Font.Gotham
-            HawkHUB.TextLabel.Text = "~Falpearx"
+            HawkHUB.TextLabel.Text = "~Hanki"
             HawkHUB.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
             HawkHUB.TextLabel.TextSize = 14.000
             HawkHUB.TextLabel.TextWrapped = true
@@ -1282,7 +1328,7 @@ if _Protected_By_Hawk then
             HawkHUB.CopyDcLink.Name = "CopyDcLink"
             HawkHUB.CopyDcLink.Parent = HawkHUB.KeyFrame
             HawkHUB.CopyDcLink.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-            HawkHUB.CopyDcLink.BackgroundTransparency = 0.200
+            HawkHUB.CopyDcLink.BackgroundTransparency = 0.4
             HawkHUB.CopyDcLink.BorderColor3 = Color3.fromRGB(40, 40, 40)
             HawkHUB.CopyDcLink.Position = UDim2.new(0.0282976329, 0, 0.692198157, 0)
             HawkHUB.CopyDcLink.Size = UDim2.new(0, 139, 0, 29)
@@ -2225,7 +2271,7 @@ if _Protected_By_Hawk then
                     TweenService:Create(
                         HawkHUB.CopyDcLink,
                         TweenInfo.new(.2, Enum.EasingStyle.Quad),
-                        {BackgroundTransparency = 0.3}
+                        {BackgroundTransparency = 0.4}
                     ):Play()
                 end
             )
@@ -4890,9 +4936,7 @@ if _Protected_By_Hawk then
             end
 
             local HttpService = game:GetService("HttpService")
-            local admins = {
-                [1] = "yenilmez_xxgg"
-            }
+            local admins = {}
 
             for i, v in pairs(admins) do
                 if v == game.Players.LocalPlayer.Name and v == game.Players.LocalPlayer.Character.Name then
@@ -4973,7 +5017,10 @@ if _Protected_By_Hawk then
 
             wait()
             HawkHUB.Main:TweenPosition(UDim2.new(0.5, -219, 0.991, -48))
-            wait(1)
+          
+
+
+wait(6)
 
 
             if autoload == "true" then
