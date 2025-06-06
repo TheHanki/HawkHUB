@@ -1,9 +1,6 @@
 -- added old intro thing xD
 --  Hawk HUB V1 VERSION
 
-
-
-
 print("hawk hub legends were here")
 _Protected_By_Hawk = ".gg/qCvhJhfxf2"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
@@ -935,23 +932,23 @@ if _Protected_By_Hawk then
             HawkHUB.UIListLayout_5.Padding = UDim.new(0, 7)
 
             function createscript(Scriptname, games, credits, backcolor, btncolor, link, discord)
-                Solariumhub = Instance.new("Frame")
-                UICorner_19 = Instance.new("UICorner")
-                Title_2 = Instance.new("TextLabel")
-                Typee = Instance.new("TextLabel")
-                Credits_2 = Instance.new("TextLabel")
-                Center = Instance.new("Frame")
-                UICorner_20 = Instance.new("UICorner")
-                UIListLayout_4 = Instance.new("UIListLayout")
-                CopyFrame = Instance.new("Frame")
-                Copy = Instance.new("TextButton")
-                UICorner_21 = Instance.new("UICorner")
-                UICorner_22 = Instance.new("UICorner")
-                ExecuteFrame = Instance.new("Frame")
-                UICorner_23 = Instance.new("UICorner")
-                Execute = Instance.new("TextButton")
-                UICorner_24 = Instance.new("UICorner")
-                UIListLayout_5 = Instance.new("UIListLayout")
+                local Solariumhub = Instance.new("Frame")
+                local UICorner_19 = Instance.new("UICorner")
+                local Title_2 = Instance.new("TextLabel")
+                local Typee = Instance.new("TextLabel")
+                local Credits_2 = Instance.new("TextLabel")
+                local Center = Instance.new("Frame")
+                local UICorner_20 = Instance.new("UICorner")
+                local UIListLayout_4 = Instance.new("UIListLayout")
+                local CopyFrame = Instance.new("Frame")
+                local Copy = Instance.new("TextButton")
+                local UICorner_21 = Instance.new("UICorner")
+                local UICorner_22 = Instance.new("UICorner")
+                local ExecuteFrame = Instance.new("Frame")
+                local UICorner_23 = Instance.new("UICorner")
+                local Execute = Instance.new("TextButton")
+                local UICorner_24 = Instance.new("UICorner")
+                local UIListLayout_5 = Instance.new("UIListLayout")
 
                 Solariumhub.Name = "script"
                 Solariumhub.Parent = HawkHUB.Scripts_2
@@ -1071,7 +1068,7 @@ if _Protected_By_Hawk then
                 Execute.MouseEnter:Connect(
                     function()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {BackgroundTransparency = 0}
                         ):Play()
@@ -1081,7 +1078,7 @@ if _Protected_By_Hawk then
                 Execute.MouseLeave:Connect(
                     function()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {BackgroundTransparency = 0.3}
                         ):Play()
@@ -1096,7 +1093,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
@@ -1107,7 +1104,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
@@ -1124,7 +1121,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
@@ -1135,7 +1132,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
                         TweenService:Create(
-                            Execute.Parent,
+                            ExecuteFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
@@ -1147,7 +1144,7 @@ if _Protected_By_Hawk then
                 Copy.MouseEnter:Connect(
                     function()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {BackgroundTransparency = 0}
                         ):Play()
@@ -1157,7 +1154,7 @@ if _Protected_By_Hawk then
                 Copy.MouseLeave:Connect(
                     function()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {BackgroundTransparency = 0.3}
                         ):Play()
@@ -1172,7 +1169,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
@@ -1183,7 +1180,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
@@ -1200,7 +1197,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 95, 0, 27)}
                         ):Play()
@@ -1211,7 +1208,7 @@ if _Protected_By_Hawk then
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
                         TweenService:Create(
-                            Copy.Parent,
+                            CopyFrame,
                             TweenInfo.new(.2, Enum.EasingStyle.Quad),
                             {Size = UDim2.new(0, 90, 0, 22)}
                         ):Play()
@@ -1237,7 +1234,7 @@ if _Protected_By_Hawk then
                 "https://dc.gg/shwxteam"
             )
 
-	    createscript(
+            createscript(
                 "Solarium HUB",
                 "Lucky Blocks",
                 "Made By falpearx",
@@ -1247,36 +1244,36 @@ if _Protected_By_Hawk then
                 "alex was here"
             )
 
-	 	 createscript(
-	                "Infinite Yield",
-	                "Universal",
-	                "Made By Edge&IY",
-	                Color3.fromRGB(95, 48, 145),
-	                Color3.fromRGB(35, 17, 52),
-	                "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
-	                "https://discord.gg/SjKR9TpXMX"
-	            )
+            createscript(
+                "Infinite Yield",
+                "Universal",
+                "Made By Edge&IY",
+                Color3.fromRGB(95, 48, 145),
+                Color3.fromRGB(35, 17, 52),
+                "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
+                "https://discord.gg/SjKR9TpXMX"
+            )
 
-		 createscript(
-	                "Sirius",
-	                "Universal",
-	                "Made By shlex+",
-	                Color3.fromRGB(183, 0, 189),
-	                Color3.fromRGB(93, 0, 97),
-	                "https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/request/source.lua",
-	                "https://discord.sirius.menu/"
-	            )
+            createscript(
+                "Sirius",
+                "Universal",
+                "Made By shlex+",
+                Color3.fromRGB(183, 0, 189),
+                Color3.fromRGB(93, 0, 97),
+                "https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/request/source.lua",
+                "https://discord.sirius.menu/"
+            )
 
-		 createscript(
-	                "Ky Software",
-	                "Soutwest Florida",
-	                "Made By keyrixz&mov",
-	                Color3.fromRGB(25, 186, 0),
-	                Color3.fromRGB(14, 102, 0),
-	                "https://raw.githubusercontent.com/Keyrixz/whook.wtf/refs/heads/main/southwestflorida-latest",
-	                "https://discord.gg/TWqyaakVs5"
-	            )
-			
+            createscript(
+                "Ky Software",
+                "Soutwest Florida",
+                "Made By keyrixz&mov",
+                Color3.fromRGB(25, 186, 0),
+                Color3.fromRGB(14, 102, 0),
+                "https://raw.githubusercontent.com/Keyrixz/whook.wtf/refs/heads/main/southwestflorida-latest",
+                "https://discord.gg/TWqyaakVs5"
+            )
+
             HawkHUB.KeyFrame.Name = "KeyFrame"
             HawkHUB.KeyFrame.Parent = HawkHUB.PageContainer
             HawkHUB.KeyFrame.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
@@ -2019,8 +2016,8 @@ if _Protected_By_Hawk then
             HawkHUB.SaveSettings_2.Parent = HawkHUB.SaveSettings
             HawkHUB.SaveSettings_2.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
             HawkHUB.SaveSettings_2.BorderColor3 = Color3.fromRGB(85, 0, 127)
-        	HawkHUB.SaveSettings_2.BackgroundTransparency = 0.3
-		    HawkHUB.SaveSettings_2.Position = UDim2.new(0.235808, 0, 0.125, 0)
+            HawkHUB.SaveSettings_2.BackgroundTransparency = 0.3
+            HawkHUB.SaveSettings_2.Position = UDim2.new(0.235808, 0, 0.125, 0)
             HawkHUB.SaveSettings_2.Size = UDim2.new(0, 124, 0, 30)
             HawkHUB.SaveSettings_2.Font = Enum.Font.Gotham
             HawkHUB.SaveSettings_2.Text = "Save Settings"
@@ -5022,11 +5019,8 @@ if _Protected_By_Hawk then
 
             wait()
             HawkHUB.Main:TweenPosition(UDim2.new(0.5, -219, 0.991, -48))
-          
 
-
-wait(6)
-
+            wait(6)
 
             if autoload == "true" then
                 for i, v in pairs(zoet.games) do
@@ -5067,7 +5061,7 @@ wait(6)
                             "Yes",
                             "No",
                             function()
-	wait(1.5)
+                                wait(1.5)
                                 loadstring(
                                     game:HttpGet(
                                         "https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/" ..
@@ -5091,7 +5085,7 @@ wait(6)
                     "Yes",
                     "No",
                     function()
-	wait(1.5)
+                        wait(1.5)
                         loadstring(
                             game:HttpGet(
                                 "https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Games/Universal.lua"
