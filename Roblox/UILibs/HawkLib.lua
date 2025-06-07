@@ -77,7 +77,7 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
-local HawkLib = {
+HawkLib = {
 	Elements = {
 		WideMenu = {
 			MainPosition = UDim2.new(0.517696261, -296, 0.401494592, -164),
