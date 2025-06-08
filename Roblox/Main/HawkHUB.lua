@@ -6,6 +6,14 @@ _Protected_By_Hawk = ".gg/qCvhJhfxf2"
 _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 assert(hookfunction, "Your exploit does not support that function - Hanki")
 
+if getgenv().queue_on_teleport then
+game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
+    if State == Enum.TeleportState.Started then
+        queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Main/Loader.lua"))()')
+    end
+end)
+end
+
 for i, v in pairs(game.CoreGui:GetChildren()) do
     if v.Name == "GargamelosSanderos" then
         v:Destroy()
