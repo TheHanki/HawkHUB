@@ -7,6 +7,8 @@ _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 assert(hookfunction, "Your exploit does not support that function - Hanki")
 
 if getgenv().queue_on_teleport then
+queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Main/Loader.lua"))()')
+  
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
         queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/xwerta/HawkHUB/refs/heads/main/Roblox/Main/Loader.lua"))()')
