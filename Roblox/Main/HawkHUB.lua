@@ -1,5 +1,5 @@
 -- added old intro thing xD
---  Hawk HUB V1 VERSION
+--  Hawk HUB OLD VERSION
 
 print("hawk hub legends were here")
 _Protected_By_Hawk = ".gg/qCvhJhfxf2"
