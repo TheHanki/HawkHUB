@@ -1,0 +1,555 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: #1b1b1b;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 120px;
+    vertical-align: auto;
+    position: static;
+    align-content: center;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 70px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+
+@font-face {
+    font-family: 'Metropolis-Bold';
+    src: local('Metropolis Bold'), local('Metropolis-Bold'),
+        url('Metropolis-Bold.otf')
+}
+@font-face {
+    font-family: 'Metropolis-Medium';
+    src: local('Metropolis Medium'), local('Metropolis-Medium'),
+        url('Metropolis-Medium.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+       
+    
+.navbar ul li a{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0px;
+    font-family: 'Metropolis-Medium';
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: white;
+    border-radius: 2px;
+
+}
+
+h1 {
+    color: rgb(229, 231, 233);
+    font-family: 'Metropolis-Bold';
+    margin: 5 0px;
+    padding-top: 35px;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+
+.center p {
+    color: rgb(204, 204, 204);
+    font-family: 'Metropolis-Medium', sans-serif;
+    margin: 5 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-left: -50px;
+    text-align: center;
+
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(204, 204, 204);
+    font-family: 'Metropolis-Medium', sans-serif;
+    margin: 5 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -50px;
+    font-weight: normal;
+
+}
+
+.editorial {
+    display: block;
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    float: left;
+    margin-bottom: 60px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.fuckingbody {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Metropolis-Medium', sans-serif;
+    color: #0c0c0c;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #19191a;
+}
+
+
+.fuckingbody .top{
+    width: 100%;
+    height: 80px;
+    
+}
+
+.top ul{
+    float: left;
+    text-align:center; 
+}
+
+.top ul h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.recommendcard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 120px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.recommendcard p {
+    padding-top: 10vh;
+    padding-block-start: 10vh;
+    font-size: 21px; 
+    width: 410px;
+    margin-left: 3px; 
+    margin-top: 10; 
+    color: #8F8F9F; 
+    font-family: sans-serif;
+}
+.recommendcard .cardtop ul{
+    float: left;
+    margin-left: 20px;
+}
+
+
+.cardtop {
+        width: 100%;
+        height: 60px;
+    
+}
+
+.cardtop ul {
+    height: 55%;
+    width: 63vh;
+}
+.cardtop ul h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+    
+}
+
+
+
+.cardtop li {
+    color: rgb(171, 171, 172);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 0px;
+    font-family: 'Metropolis-Medium';
+}
+
+
+/*latest card*/
+
+.latestcard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 120px;
+    margin-top: -260px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.latestcard p {
+    padding-top: 10vh;
+    padding-block-start: 10vh;
+    font-size: 21px; 
+    width: 410px;
+    margin-left: 3px; 
+    margin-top: 10; 
+    color: #8F8F9F; 
+    font-family: sans-serif;
+}
+.latestcard .latestcardtop ul{
+    float: left;
+    margin-left: 20px;
+}
+
+
+.latestcardtop {
+        width: 100%;
+        height: 60px;
+    
+}
+
+.latestcardtop ul {
+    height: 55%;
+    width: 63vh;
+}
+.latestcardtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 45px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+.latestcardtop li {
+    color: rgb(171, 171, 172);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 0px;
+    font-family: 'Metropolis-Medium';
+}
+
+
+/*Main*/
+
+#features {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    height: 130vh;
+    font-size: 25px;
+    font-family: 'Metropolis-Medium', sans-serif;
+    color: #0c0c0c;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #19191a;
+}
+
+
+.fuckingfeatures .top{
+    width: 100%;
+    height: 80px;
+}
+
+.top li{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Metropolis-Medium';
+    text-align:center; 
+}
+
+.top ul{
+    float: left;
+    margin-top: -55px;
+}
+
+.top ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 70px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+
+.maincard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 120px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+.maincard p {
+    padding-bottom: -5vh;
+    padding-block-start: 0vh;
+    font-size: 19px; 
+    width: 410px;
+    margin-left: 0.5px;  
+    color: #8F8F9F; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardtop {
+        width: 100%;
+        height: 60px;
+    
+}
+
+.cardtop ul {
+    height: 55%;
+    width: 63vh;
+}
+.cardtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.cardtop li {
+    color: rgb(171, 171, 172);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 0px;
+    font-family: 'Metropolis-Medium';
+}
+
+/*player*/
+.playercard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 350px;
+    margin-top: -500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    
+}
+
+.playercard p {
+    padding-bottom: -5vh;
+    padding-block-start: 0vh;
+    font-size: 19px; 
+    width: 410px;
+    margin-left: 0.5px;  
+    color: #8F8F9F; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardtop {
+        width: 100%;
+        height: 60px;
+    
+}
+
+.cardtop ul {
+    height: 55%;
+    width: 63vh;
+}
+.cardtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 45px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+.cardtop li {
+    color: rgb(171, 171, 172);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 0px;
+    font-family: 'Metropolis-Medium';
+}
+
+/*stuff*/
+.stuffcard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 580px;
+    margin-top: -500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    
+}
+
+.stuffcard p {
+    padding-bottom: -5vh;
+    padding-block-start: 0vh;
+    font-size: 19px; 
+    width: 410px;
+    margin-left: 0.5px;  
+    color: #8F8F9F; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardtop {
+        width: 100%;
+        height: 60px;
+    
+}
+
+.cardtop ul {
+    height: 55%;
+    width: 63vh;
+}
+.cardtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 45px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+.cardtop li {
+    color: rgb(171, 171, 172);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 0px;
+    font-family: 'Metropolis-Medium';
+}
+
+
+.notecard {
+    background-color: rgb(28, 28, 29);
+    margin-left: 120px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.notecard p {
+    padding-top: 10vh;
+    padding-block-start: 10vh;
+    font-size: 21px; 
+    width: 410px;
+    margin-left: 3px; 
+    margin-top: 10; 
+    color: #8F8F9F; 
+    font-family: sans-serif;
+}
+.notecard  ul{
+    float: left;
+    margin-left: 20px;
+}
+
+
+/*Button*/
+.btn {
+  background-color: dodgerblue;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+   transition: all 0.3s;
+}
+
+/* Mouse Hover*/
+.btn:hover {
+  background-color: rgb(40, 86, 224);
+}
+
+.btn:active {
+transform: translateY(3px) ;
+}
+
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn {
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(36, 36, 36);
+    opacity: 50%;
+}
+::-webkit-scrollbar-thumb {
+    background: #3d3d3d;
+    border-radius: 24px;
+    transition: 200ms;
+}
+
